@@ -1,0 +1,76 @@
+/* Menjadikan wrapper full height dan menempatkan elemen di tengah */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh; /* Menggunakan seluruh tinggi viewport */
+  background-color: #f3f4f6; /* (opsional) Mengubah warna latar belakang */
+}
+
+.form-wrapper {
+  background-color: white; /* Warna latar belakang form */
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Memberikan bayangan */
+  width: 100%;
+  max-width: 400px; /* Membatasi lebar form */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Menempatkan konten form di tengah */
+}
+
+h1 {
+  text-align: center; /* Menempatkan judul di tengah */
+  margin-bottom: 10px; /* Mengurangi jarak bawah */
+  font-size: 24px; /* Ukuran font judul */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Menambah jarak antar elemen form */
+  width: 100%;
+  justify-content: center; /* Menjaga form tetap di tengah */
+}
+
+label p {
+  margin: 0;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px; /* Ukuran font pada input */
+  width: 100%; /* Membuat input mengisi lebar form */
+  box-sizing: border-box; /* Untuk menghindari input yang meluap dari container */
+}
+
+button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px; /* Ukuran font pada tombol */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+a {
+  text-align: center;
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}

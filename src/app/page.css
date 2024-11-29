@@ -1,0 +1,58 @@
+/* Membuat halaman penuh tinggi dan memastikan konten di tengah */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6; /* Warna latar belakang lembut */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Membuat halaman penuh tinggi */
+}
+
+/* Wrapper utama */
+div {
+  text-align: center;
+  background-color: #ffffff; /* Latar belakang putih untuk kotak konten */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan */
+  max-width: 400px; /* Membatasi lebar konten */
+  width: 90%; /* Responsif pada layar kecil */
+}
+
+/* Judul */
+h1 {
+  font-size: 24px;
+  color: #333333; /* Warna teks gelap */
+  margin-bottom: 20px;
+}
+
+/* Tombol */
+button {
+  background-color: #007bff; /* Warna biru khas */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Efek hover tombol */
+button:hover {
+  background-color: #0056b3; /* Warna biru lebih gelap */
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
