@@ -1,0 +1,42 @@
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f5f7;
+  padding: 20px;
+}
+
+.admin-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.admin-description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.admin-content {
+  display: flex;
+  gap: 15px;
+}
+
+.admin-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.admin-button:hover {
+  background-color: #0056b3;
+}
